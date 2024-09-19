@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header{
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+h1, h2{
+    margin: 20px;
+    text-align: center;
+}
+
+#players{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.player{
+    background-color: rgb(247, 245, 245);
+    margin: 10px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: rgb(247, 245, 245);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#SearchButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    margin: 15px;
+}
+
+#tableTr{
+    background-color: red;
+    color: white;
+}
+
+th{
+    padding: 7px;
+}
+
+#PG,#SG,#SF,#PF,#C{
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(247, 245, 245);
+    border: none;
+}
+
+button{
+    background-color: rgb(52, 52, 247);
+    width: 90%;
+    border-radius: 5px;
+    border-color:  rgb(247, 245, 245);
+    color: white;
+}
+
+table{
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-weight: bold; 
+}
+
+table {
+    width: 100%;
+    background-color: rgb(240, 239, 239);
+    color: rgb(3, 3, 0);
+    border-collapse: collapse;
+    font-weight: bold; 
+}
+
+th, td {
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #bbb6b6; 
+}
+
+#HH{
+    color: blue;
+}

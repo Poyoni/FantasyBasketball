@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Fantasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <h2>NBA FANTASY</h2>
+    </header>
+    <div id="playersHeader">
+        <h1 id="HH">My Fantasy Team</h1>
+        <div id="players">
+            <div class="player" id="PGP">
+                <h3>Point Guard</h3>
+                <div id="PG" style="display: none;">
+                </div>
+            </div>
+            <div class="player" id="SGP">
+                <h3>Shooting Guard</h3>
+                <div id="SG" style="display: none;">
+                </div>
+            </div>
+            <div class="player" id="SFP">
+                <h3>Small Forward</h3>
+                <div id="SF" style="display: none;">
+                </div>
+            </div>
+            <div class="player" id="PFP">
+                <h3>Power Forward</h3>
+                <div id="PF" style="display: none;">
+                </div>
+            </div>
+            <div class="player" id="CP">
+                <h3>Center</h3>
+                <div id="C" style="display: none;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 id="HH">NBA Players Search</h1>
+    <div id="form">
+        <select id="position">
+            <option value="PG">PG</option>
+            <option value="SG">SG</option>
+            <option value="SF">SF</option>
+            <option value="PF">PF</option>
+            <option value="C">C</option>
+        </select>
+        <label for="Points">Points</label>
+        <input type="range" id="Points" min="0" max="20000" />
+        <label for="ThreePercents">Three Percents</label>
+        <input type="range" id="ThreePercents" min="0" max="100" />
+        <label for="TwoPercents">Two Percents</label>
+        <input type="range" id="TwoPercents" min="0" max="100" />
+        <button id="SearchButton">Search Players</button>
+        <table id="PlayersTable">
+            <thead id="tableTr">
+                <tr>
+                    <th>Player</th>
+                    <th>Position</th>
+                    <th>Points</th>
+                    <th>FG%</th>
+                    <th>3P%</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="playersRows">
+            </tbody>
+        </table>
+    </div>
+    <script src="javaScript/script.js"></script>
+</body>
+</html>
